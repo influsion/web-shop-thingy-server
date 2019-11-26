@@ -45,9 +45,7 @@ app.get('/localization/:lang', cors(), function(req, res) {
     res.status(200).send(localizationJSON);
 });
 
-app.get('/categoriesstructure/:lang', cors(), function(req, res) {
-    const { params } = req;
-
+app.get('/categoriesstructure', cors(), function(req, res) {
     const categoriesStructureJSON = JSON.stringify(categoriesStructure());
 
     res.status(200).send(categoriesStructureJSON);
