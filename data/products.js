@@ -10,7 +10,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "notebooks",
       "brand": "acer",
-      "origin": "china"
+      "origin": "china",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "2",
@@ -21,7 +23,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "notebooks",
       "brand": "hp",
-      "origin": "china"
+      "origin": "china",
+      "new": false,
+      "popular": true,
     },
     {
       "id": "3",
@@ -32,7 +36,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "notebooks",
       "brand": "dell",
-      "origin": "china"
+      "origin": "china",
+      "new": false,
+      "popular": true,
     },
     {
       "id": "4",
@@ -43,7 +49,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "notebooks",
       "brand": "asus",
-      "origin": "china"
+      "origin": "china",
+      "new": true,
+      "popular": false,
     },
     {
       "id": "5",
@@ -54,7 +62,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "tablets",
       "brand": "lenovo",
-      "origin": "china"
+      "origin": "china",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "6",
@@ -65,7 +75,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "tablets",
       "brand": "samsung",
-      "origin": "korea"
+      "origin": "korea",
+      "new": false,
+      "popular": true,
     },
     {
       "id": "7",
@@ -76,7 +88,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "tablets",
       "brand": "huawei",
-      "origin": "china"
+      "origin": "china",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "8",
@@ -87,7 +101,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "tablets",
       "brand": "assistance",
-      "origin": "china"
+      "origin": "china",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "9",
@@ -98,7 +114,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "e-books",
       "brand": "pocket-book",
-      "origin": "switzerland"
+      "origin": "switzerland",
+      "new": true,
+      "popular": false,
     },
     {
       "id": "10",
@@ -109,7 +127,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "e-books",
       "brand": "pocket-book",
-      "origin": "switzerland"
+      "origin": "switzerland",
+      "new": true,
+      "popular": false,
     },
     {
       "id": "11",
@@ -120,7 +140,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "e-books",
       "brand": "onyx-boox",
-      "origin": "china"
+      "origin": "china",
+      "new": true,
+      "popular": true,
     },
     {
       "id": "12",
@@ -131,7 +153,9 @@ const products = [
       "category": "computers-notebooks",
       "subcategory": "e-books",
       "brand": "amazon-kindle",
-      "origin": "usa"
+      "origin": "usa",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "13",
@@ -142,7 +166,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "tv",
       "brand": "lg",
-      "origin": "korea"
+      "origin": "korea",
+      "new": true,
+      "popular": false,
     },
     {
       "id": "14",
@@ -153,7 +179,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "tv",
       "brand": "samsung",
-      "origin": "korea"
+      "origin": "korea",
+      "new": false,
+      "popular": true,
     },
     {
       "id": "15",
@@ -164,7 +192,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "tv",
       "brand": "philips",
-      "origin": "nederland"
+      "origin": "nederland",
+      "new": true,
+      "popular": false,
     },
     {
       "id": "16",
@@ -175,7 +205,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "tv",
       "brand": "kivi",
-      "origin": "ukraine"
+      "origin": "ukraine",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "17",
@@ -186,7 +218,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "phones",
       "brand": "samsung",
-      "origin": "korea"
+      "origin": "korea",
+      "new": false,
+      "popular": true,
     },
     {
       "id": "18",
@@ -197,7 +231,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "phones",
       "brand": "meizu",
-      "origin": "china"
+      "origin": "china",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "19",
@@ -208,7 +244,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "phones",
       "brand": "xiaomi",
-      "origin": "china"
+      "origin": "china",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "20",
@@ -219,7 +257,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "phones",
       "brand": "apple",
-      "origin": "usa"
+      "origin": "usa",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "21",
@@ -230,7 +270,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "photo-and-video",
       "brand": "canon",
-      "origin": "japan"
+      "origin": "japan",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "22",
@@ -241,7 +283,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "photo-and-video",
       "brand": "nikon",
-      "origin": "japan"
+      "origin": "japan",
+      "new": true,
+      "popular": true,
     },
     {
       "id": "23",
@@ -252,7 +296,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "photo-and-video",
       "brand": "sony",
-      "origin": "japan"
+      "origin": "japan",
+      "new": true,
+      "popular": true,
     },
     {
       "id": "24",
@@ -263,7 +309,9 @@ const products = [
       "category": "phones-tv-and-electronics",
       "subcategory": "photo-and-video",
       "brand": "nikon",
-      "origin": "japan"
+      "origin": "japan",
+      "new": false,
+      "popular": true,
     },
     {
       "id": "25",
@@ -274,7 +322,9 @@ const products = [
       "category": "appliances",
       "subcategory": "refrigerators",
       "brand": "bosh",
-      "origin": "germany"
+      "origin": "germany",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "26",
@@ -285,7 +335,9 @@ const products = [
       "category": "appliances",
       "subcategory": "refrigerators",
       "brand": "samsung",
-      "origin": "korea"
+      "origin": "korea",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "27",
@@ -296,7 +348,9 @@ const products = [
       "category": "appliances",
       "subcategory": "refrigerators",
       "brand": "indesit",
-      "origin": "italia"
+      "origin": "italia",
+      "new": false,
+      "popular": true,
     },
     {
       "id": "28",
@@ -307,7 +361,9 @@ const products = [
       "category": "appliances",
       "subcategory": "refrigerators",
       "brand": "lg",
-      "origin": "korea"
+      "origin": "korea",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "29",
@@ -318,7 +374,9 @@ const products = [
       "category": "appliances",
       "subcategory": "washing-machines",
       "brand": "samsung",
-      "origin": "korea"
+      "origin": "korea",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "30",
@@ -329,7 +387,9 @@ const products = [
       "category": "appliances",
       "subcategory": "washing-machines",
       "brand": "lg",
-      "origin": "korea"
+      "origin": "korea",
+      "new": true,
+      "popular": false,
     },
     {
       "id": "31",
@@ -340,7 +400,9 @@ const products = [
       "category": "appliances",
       "subcategory": "washing-machines",
       "brand": "indesit",
-      "origin": "italy"
+      "origin": "italy",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "32",
@@ -351,7 +413,9 @@ const products = [
       "category": "appliances",
       "subcategory": "washing-machines",
       "brand": "electrolux",
-      "origin": "sweden"
+      "origin": "sweden",
+      "new": true,
+      "popular": false,
     },
     {
       "id": "33",
@@ -362,7 +426,9 @@ const products = [
       "category": "appliances",
       "subcategory": "cookers",
       "brand": "gorenje",
-      "origin": "slovenia"
+      "origin": "slovenia",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "34",
@@ -373,7 +439,9 @@ const products = [
       "category": "appliances",
       "subcategory": "cookers",
       "brand": "zanussi",
-      "origin": "italia"
+      "origin": "italia",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "35",
@@ -384,7 +452,9 @@ const products = [
       "category": "appliances",
       "subcategory": "cookers",
       "brand": "gorenje",
-      "origin": "slovenia"
+      "origin": "slovenia",
+      "new": false,
+      "popular": false,
     },
     {
       "id": "36",
@@ -395,7 +465,9 @@ const products = [
       "category": "appliances",
       "subcategory": "cookers",
       "brand": "beko",
-      "origin": "turkey"
+      "origin": "turkey",
+      "new": false,
+      "popular": false,
     },
 ];
 
