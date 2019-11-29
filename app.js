@@ -11,7 +11,7 @@ const { localization } = require('./data/localization.js');
 const { getProducts } = require('./helpers/getProducts.js');
 const { getCategoriesStructure } = require('./helpers/getCategoriesStructure.js');
 const { getLocalization } = require('./helpers/getLocalization.js');
-const { getPriceRange } = require('./helpers/getPriceRange.js');
+const { getFilterConditions } = require('./helpers/getFilterConditions.js');
 
 const filterProducts = getProducts.bind(null, arrOfproducts);
 const getLocal = getLocalization.bind(null, localization);

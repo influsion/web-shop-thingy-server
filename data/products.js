@@ -348,7 +348,7 @@ const products = [
       "category": "appliances",
       "subcategory": "refrigerators",
       "brand": "indesit",
-      "origin": "italia",
+      "origin": "italy",
       "new": false,
       "popular": true
     },
@@ -439,7 +439,7 @@ const products = [
       "category": "appliances",
       "subcategory": "cookers",
       "brand": "zanussi",
-      "origin": "italia",
+      "origin": "italy",
       "new": false,
       "popular": false
     },
