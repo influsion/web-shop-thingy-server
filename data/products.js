@@ -12,7 +12,7 @@ const products = [
       "brand": "acer",
       "origin": "china",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "2",
@@ -25,7 +25,7 @@ const products = [
       "brand": "hp",
       "origin": "china",
       "new": false,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "3",
@@ -38,7 +38,7 @@ const products = [
       "brand": "dell",
       "origin": "china",
       "new": false,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "4",
@@ -51,7 +51,7 @@ const products = [
       "brand": "asus",
       "origin": "china",
       "new": true,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "5",
@@ -64,7 +64,7 @@ const products = [
       "brand": "lenovo",
       "origin": "china",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "6",
@@ -77,7 +77,7 @@ const products = [
       "brand": "samsung",
       "origin": "korea",
       "new": false,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "7",
@@ -90,7 +90,7 @@ const products = [
       "brand": "huawei",
       "origin": "china",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "8",
@@ -103,7 +103,7 @@ const products = [
       "brand": "assistance",
       "origin": "china",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "9",
@@ -116,7 +116,7 @@ const products = [
       "brand": "pocket-book",
       "origin": "switzerland",
       "new": true,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "10",
@@ -129,7 +129,7 @@ const products = [
       "brand": "pocket-book",
       "origin": "switzerland",
       "new": true,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "11",
@@ -142,7 +142,7 @@ const products = [
       "brand": "onyx-boox",
       "origin": "china",
       "new": true,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "12",
@@ -155,7 +155,7 @@ const products = [
       "brand": "amazon-kindle",
       "origin": "usa",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "13",
@@ -168,7 +168,7 @@ const products = [
       "brand": "lg",
       "origin": "korea",
       "new": true,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "14",
@@ -181,7 +181,7 @@ const products = [
       "brand": "samsung",
       "origin": "korea",
       "new": false,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "15",
@@ -194,7 +194,7 @@ const products = [
       "brand": "philips",
       "origin": "nederland",
       "new": true,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "16",
@@ -207,7 +207,7 @@ const products = [
       "brand": "kivi",
       "origin": "ukraine",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "17",
@@ -220,7 +220,7 @@ const products = [
       "brand": "samsung",
       "origin": "korea",
       "new": false,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "18",
@@ -233,7 +233,7 @@ const products = [
       "brand": "meizu",
       "origin": "china",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "19",
@@ -246,7 +246,7 @@ const products = [
       "brand": "xiaomi",
       "origin": "china",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "20",
@@ -259,7 +259,7 @@ const products = [
       "brand": "apple",
       "origin": "usa",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "21",
@@ -272,7 +272,7 @@ const products = [
       "brand": "canon",
       "origin": "japan",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "22",
@@ -285,7 +285,7 @@ const products = [
       "brand": "nikon",
       "origin": "japan",
       "new": true,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "23",
@@ -298,7 +298,7 @@ const products = [
       "brand": "sony",
       "origin": "japan",
       "new": true,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "24",
@@ -311,7 +311,7 @@ const products = [
       "brand": "nikon",
       "origin": "japan",
       "new": false,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "25",
@@ -324,7 +324,7 @@ const products = [
       "brand": "bosh",
       "origin": "germany",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "26",
@@ -337,7 +337,7 @@ const products = [
       "brand": "samsung",
       "origin": "korea",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "27",
@@ -350,7 +350,7 @@ const products = [
       "brand": "indesit",
       "origin": "italia",
       "new": false,
-      "popular": true,
+      "popular": true
     },
     {
       "id": "28",
@@ -363,7 +363,7 @@ const products = [
       "brand": "lg",
       "origin": "korea",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "29",
@@ -376,7 +376,7 @@ const products = [
       "brand": "samsung",
       "origin": "korea",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "30",
@@ -389,7 +389,7 @@ const products = [
       "brand": "lg",
       "origin": "korea",
       "new": true,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "31",
@@ -402,7 +402,7 @@ const products = [
       "brand": "indesit",
       "origin": "italy",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "32",
@@ -415,7 +415,7 @@ const products = [
       "brand": "electrolux",
       "origin": "sweden",
       "new": true,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "33",
@@ -428,7 +428,7 @@ const products = [
       "brand": "gorenje",
       "origin": "slovenia",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "34",
@@ -441,7 +441,7 @@ const products = [
       "brand": "zanussi",
       "origin": "italia",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "35",
@@ -454,7 +454,7 @@ const products = [
       "brand": "gorenje",
       "origin": "slovenia",
       "new": false,
-      "popular": false,
+      "popular": false
     },
     {
       "id": "36",
@@ -467,7 +467,7 @@ const products = [
       "brand": "beko",
       "origin": "turkey",
       "new": false,
-      "popular": false,
+      "popular": false
     },
 ];
 

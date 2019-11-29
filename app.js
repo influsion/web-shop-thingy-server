@@ -11,6 +11,7 @@ const { localization } = require('./data/localization.js');
 const { getProducts } = require('./helpers/getProducts.js');
 const { getCategoriesStructure } = require('./helpers/getCategoriesStructure.js');
 const { getLocalization } = require('./helpers/getLocalization.js');
+const { getPriceRange } = require('./helpers/getPriceRange.js');
 
 const filterProducts = getProducts.bind(null, arrOfproducts);
 const getLocal = getLocalization.bind(null, localization);
@@ -49,4 +50,4 @@ app.get('/categoriesstructure', cors(), function(req, res) {
     const categoriesStructureJSON = JSON.stringify(categoriesStructure());
 
     res.status(200).send(categoriesStructureJSON);
-})
+});
