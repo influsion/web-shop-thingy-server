@@ -51,3 +51,16 @@ app.get('/categoriesstructure', cors(), function(req, res) {
 
     res.status(200).send(categoriesStructureJSON);
 });
+
+app.get('/filterconditions/:categoryOrSubcategory', cors(), function(req, res) {
+    const { params: { categoryOrSubcategory = null } } = req;
+
+    if (categoryOrSubcategory) {
+        const filterConditions = getFilterConditions(filterProducts(), categoryOrSubcategory);;
+        const filterConditionsJSON = JSON.stringify(filterConditions)
+
+        res.status(200).send(filterConditionsJSON);
+    } else {
+        res.status(400);
+    }
+});

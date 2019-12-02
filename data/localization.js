@@ -194,6 +194,9 @@ const localizationData = {
         "brand": {
             "_key_en": "Brand",
         },
+        "brands": {
+            "_key_en": "Brands",
+        },
         "origin": {
             "_key_en": "Origin",
         },
