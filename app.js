@@ -12,6 +12,7 @@ const { getProducts } = require('./helpers/getProducts.js');
 const { getCategoriesStructure } = require('./helpers/getCategoriesStructure.js');
 const { getLocalization } = require('./helpers/getLocalization.js');
 const { getFilterConditions } = require('./helpers/getFilterConditions.js');
+const { faqData } = require('./data/faq.js');
 
 const filterProducts = getProducts.bind(null, arrOfproducts);
 const getLocal = getLocalization.bind(null, localization);
@@ -63,4 +64,10 @@ app.get('/filterconditions/:categoryOrSubcategory', cors(), function(req, res) {
     } else {
         res.status(400);
     }
+});
+
+app.get('/faq', cors(), function(req, res) {
+    const faqDataJSON = JSON.stringify(faqData);
+
+    res.status(200).send(faqDataJSON);
 });
