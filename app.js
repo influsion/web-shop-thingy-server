@@ -30,10 +30,12 @@ app.get('/products', cors(), function(req, res) {
     const { query } = req;
 
     const filteredProducts = filterProducts(query);
-    console.log('products quantity: ', Object.keys(filteredProducts).length);
+    const filteredProductsJSON = JSON.stringify(filteredProducts);
 
     console.log('req.query: ', req.query);
-    const filteredProductsJSON = JSON.stringify(filterProducts(query))
+    console.log('products quantity: ', Object.keys(filteredProducts).length);
+
+    // console.log(filteredProducts);
 
     res.status(200).send(filteredProductsJSON);
 });

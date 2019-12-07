@@ -53,6 +53,10 @@ const getProducts = function(productArr, params = {}) {
                 return min <= price && price <= max;
             }
 
+            if (is.popular || is.new) {
+                return `${params[key]}`.toLowerCase() === `${elem[key]}`.toLowerCase();
+            }
+
             // Comparison
             if (searchKey) {
                 //

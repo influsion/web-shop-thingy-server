@@ -1,7 +1,7 @@
 'use strict';
 
 const localizationData = {
-    "manu": {
+    "menu": {
         "home": {
             "_key_en": "Home",
         },
