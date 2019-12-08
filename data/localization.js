@@ -200,7 +200,64 @@ const localizationData = {
         "origin": {
             "_key_en": "Origin",
         },
-    }
+        "shop_now": {
+            "_key_en": "Shop now",
+        },
+        "product": {
+            "_key_en": "Product",
+        },
+        "products": {
+            "_key_en": "Products",
+        },
+        "new": {
+            "_key_en": "New",
+        },
+        "popular": {
+            "_key_en": "Popular",
+        },
+        "new_products_slider_subtitle": {
+            "_key_en": "Check out our new arrivals!",
+        },
+        "popular_products_slider_subtitle": {
+            "_key_en": "Popular products this month",
+        },
+        "product_categories": {
+            "_key_en": "Product categories",
+        },
+
+        "new_label": {
+            "_key_en": "New",
+        },
+        "popular_label": {
+            "_key_en": "Popular",
+        },
+
+        "home_page_title": {
+            "_key_en": "Home",
+        },
+        "shop_page_title": {
+            "_key_en": "Shop",
+        },
+        "faq_page_title": {
+            "_key_en": "FAQ",
+        },
+        "contact_page_title": {
+            "_key_en": "Contact",
+        },
+        "about_page_title": {
+            "_key_en": "About",
+        },
+
+        "price_filter_title": {
+            "_key_en": "Price",
+        },
+        "brand_filter_title": {
+            "_key_en": "Brand",
+        },
+        "origin_filter_title": {
+            "_key_en": "Origin",
+        },
+    },
 };
 
 module.exports = { localization: localizationData };
