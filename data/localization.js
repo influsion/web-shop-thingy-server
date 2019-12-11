@@ -247,6 +247,16 @@ const localizationData = {
         "about_page_title": {
             "_key_en": "About",
         },
+        "cart_page_title": {
+            "_key_en": "Cart",
+        },
+        "checkout_page_title": {
+            "_key_en": "Checkout",
+        },
+        "product_page_title": {
+            "_key_en": "Product",
+        },
+
 
         "price_filter_title": {
             "_key_en": "Price",
