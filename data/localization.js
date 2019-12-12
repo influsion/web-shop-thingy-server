@@ -267,6 +267,28 @@ const localizationData = {
         "origin_filter_title": {
             "_key_en": "Origin",
         },
+
+        "cart_table_product_name": {
+            "_key_en": "Name",
+        },
+        "cart_table_product_price": {
+            "_key_en": "Price",
+        },
+        "cart_table_product_quantity": {
+            "_key_en": "Quantity",
+        },
+        "cart_table_product_total": {
+            "_key_en": "Total",
+        },
+
+        "cart_page_check_out": {
+            "_key_en": "Check Out",
+        }
+
+        "cart_page_grand_total": {
+            "_key_en": "Grand Total",
+        }
+
     },
 };
 
