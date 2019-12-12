@@ -283,7 +283,7 @@ const localizationData = {
 
         "cart_page_check_out": {
             "_key_en": "Check Out",
-        }
+        },
 
         "cart_page_grand_total": {
             "_key_en": "Grand Total",
