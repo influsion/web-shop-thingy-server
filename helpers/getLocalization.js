@@ -8,6 +8,7 @@ let getLocalization = function(localizationData, shortKey) {
     const targetKey = '_key_' + shortKey;
 
     const circle = function nextIteration(obj, newObj) {
+        console.log(obj);
         for (const prop in obj) {
             if (Object.keys(obj[prop]).includes(targetKey)) {
                 newObj[prop] = obj[prop][targetKey];

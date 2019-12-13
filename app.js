@@ -12,7 +12,9 @@ const { getProducts } = require('./helpers/getProducts.js');
 const { getCategoriesStructure } = require('./helpers/getCategoriesStructure.js');
 const { getLocalization } = require('./helpers/getLocalization.js');
 const { getFilterConditions } = require('./helpers/getFilterConditions.js');
+
 const { faqData } = require('./data/faq.js');
+const { pagesData } = require('./data/pages');
 
 const filterProducts = getProducts.bind(null, arrOfproducts);
 const getLocal = getLocalization.bind(null, localization);
@@ -44,7 +46,7 @@ app.get('/localization/:lang', cors(), function(req, res) {
     const { params: { lang = 'en' } } = req;
 
     console.log({ lang });
-    const localizationJSON = JSON.stringify(getLocalization.call(null, localization, lang));
+    const localizationJSON = JSON.stringify(getLocal(lang));
 
     res.status(200).send(localizationJSON);
 });
@@ -72,4 +74,17 @@ app.get('/faq', cors(), function(req, res) {
     const faqDataJSON = JSON.stringify(faqData);
 
     res.status(200).send(faqDataJSON);
+});
+
+app.get('/page/:page/:lang', cors(), function(req, res) {
+    const { params: { page, lang } } = req;
+
+    console.log(page, lang);
+
+    // res.status(400)
+
+    const sourceData = pagesData[page] || {};
+    const data = getLocalization(sourceData, lang);
+
+    res.status(200).send(JSON.stringify(data));
 });
