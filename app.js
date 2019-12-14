@@ -70,12 +70,6 @@ app.get('/filterconditions/:categoryOrSubcategory', cors(), function(req, res) {
     }
 });
 
-app.get('/faq', cors(), function(req, res) {
-    const faqDataJSON = JSON.stringify(faqData);
-
-    res.status(200).send(faqDataJSON);
-});
-
 app.get('/page/:page/:lang', cors(), function(req, res) {
     const { params: { page, lang } } = req;
 
