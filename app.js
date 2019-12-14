@@ -13,7 +13,6 @@ const { getCategoriesStructure } = require('./helpers/getCategoriesStructure.js'
 const { getLocalization } = require('./helpers/getLocalization.js');
 const { getFilterConditions } = require('./helpers/getFilterConditions.js');
 
-const { faqData } = require('./data/faq.js');
 const { pagesData } = require('./data/pages');
 
 const filterProducts = getProducts.bind(null, arrOfproducts);
