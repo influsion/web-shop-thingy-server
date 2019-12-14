@@ -76,7 +76,7 @@ const getProducts = function(productArr, params = {}) {
         let searchQuery = searchQuerySourse.trim().replace(/\s+/, ' ');
         const re = new RegExp(searchQuery, 'gi');
 
-        const isCorrectSearchQuery = true;
+        const isCorrectSearchQuery = new RegExp(/^[^@#$%&*^()=+\\\[\]/]+$/).test(searchQuery);
 
         const processSearchQuery = () => {
             return productArr
