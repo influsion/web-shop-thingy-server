@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const bodyParser = require('body-parser');
 const qs = require('qs');
 const qsDefaultParams = {
     arrayFormat: 'indices',
@@ -21,7 +22,10 @@ const categoriesStructure = getCategoriesStructure.bind(null, filterProducts());
 
 const app = express();
 const PORT = 3000;
-// app.use(cors());
+app.use(cors()); 
+app.use(bodyParser());
+app.use(bodyParser.json());
+
 app.listen(PORT);
 
 
@@ -80,4 +84,9 @@ app.get('/page/:page/:lang', cors(), function(req, res) {
     const data = getLocalization(sourceData, lang);
 
     res.status(200).send(JSON.stringify(data));
+});
+
+app.post('/subscribe', cors(), function (req, res) {
+    // const email = req.body;
+    console.log(req.body);
 });
