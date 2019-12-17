@@ -188,6 +188,9 @@ const localizationData = {
         "categories": {
             "_key_en": "Categories",
         },
+        "subcategory": {
+            "_key_en": "Subcategory",
+        },
         "subcategories": {
             "_key_en": "Subcategories",
         },
