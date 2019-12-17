@@ -182,6 +182,12 @@ const localizationData = {
     },
 
     "i18n": {
+        "price": {
+            "_key_en": "Price",
+        },
+        "category": {
+            "_key_en": "Category",
+        },
         "category": {
             "_key_en": "Category",
         },
