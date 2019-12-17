@@ -397,13 +397,19 @@ const localizationData = {
         },
 
 
-
+        "app_settings_currency": {
+            "_key_en": "Currency",
+            "_key_ru": "Валюта",
+        },
+        "app_settings_language": {
+            "_key_en": "Language",
+            "_key_ru": "Язык",
+        },
 
         "app_feedback_copy": {
             "_key_en": "If you have any questions or suggestions, please feel free to reach out to us using the links below.",
             "_key_ru": "Если у вас есть какие-либо вопросы или предложения, пожалуйста, не стесняйтесь обращаться к нам, используя ссылки ниже.",
         },
-
         "app_search_close": {
             "_key_en": "Close",
             "_key_ru": "Закрыть",
