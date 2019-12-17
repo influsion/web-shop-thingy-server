@@ -150,7 +150,7 @@ const pagesData = {
             "_key_en": "Get office info",
         },
         "get_office_info_text": {
-            "_key_en": "CRUX, established itself as a premium denim makers that focuses on providing styles that matches with today’s urban lifestyle in the Middle Eastern region since 2016.",
+            "_key_en": "<b>NEED TO COMPLETE!!!</b>__CRUX, established itself as a premium denim makers that focuses on providing styles that matches with today’s urban lifestyle in the Middle Eastern region since 2016.",
         },
         "get_office_info_address_title": {
             "_key_en": "Address",
@@ -206,9 +206,27 @@ const pagesData = {
     },
 
     "about": {
-        "form_send_email_button": {
-            "_key_en": "Send Email",
+        "someheaderonaboutpage": {
+            "_key_en": "qwertyuiop",
+            "_key_ru": "йцукенгшщз",
         },
+        "sometextonaboutpage": {
+            "_key_en": "asdfghjkl",
+            "_key_ru": "фывапролд",
+        },
+        "the_right_people_for_your_project": {
+            "_key_en": "the right people for your project",
+            "_key_ru": "правильные люди для вашего проекта",
+        },
+        "meet_the_expert_team": {
+            "_key_en": "Meet our expert team",
+            "_key_ru": "Наши эксперты",
+        },
+        "the_right_people_for_your_project": {
+            "_key_en": "the right people for your project",
+            "_key_ru": "правильные люди для вашего проекта",
+        },
+
         "experts": {
             "0": {
                 "name": {
@@ -220,8 +238,8 @@ const pagesData = {
                     "_key_ru": "stringIsEmpry",
                 },
                 "image": {
-                    "_key_en": "stringIsEmpry",
-                    "_key_ru": "stringIsEmpry",
+                    "_key_en": "images/about/team/1.jpg",
+                    "_key_ru": "images/about/team/1.jpg",
                 },
             },
             "1": {
@@ -234,8 +252,8 @@ const pagesData = {
                     "_key_ru": "stringIsEmpry",
                 },
                 "image": {
-                    "_key_en": "stringIsEmpry",
-                    "_key_ru": "stringIsEmpry",
+                    "_key_en": "images/about/team/2.jpg",
+                    "_key_ru": "images/about/team/2.jpg",
                 },
             },
             "2": {
@@ -248,8 +266,8 @@ const pagesData = {
                     "_key_ru": "stringIsEmpry",
                 },
                 "image": {
-                    "_key_en": "stringIsEmpry",
-                    "_key_ru": "stringIsEmpry",
+                    "_key_en": "images/about/team/3.jpg",
+                    "_key_ru": "images/about/team/3.jpg",
                 },
             },
             "3": {
@@ -262,8 +280,8 @@ const pagesData = {
                     "_key_ru": "stringIsEmpry",
                 },
                 "image": {
-                    "_key_en": "stringIsEmpry",
-                    "_key_ru": "stringIsEmpry",
+                    "_key_en": "images/about/team/4.jpg",
+                    "_key_ru": "images/about/team/4.jpg",
                 },
             },
         },
