@@ -313,7 +313,7 @@ const pagesData = {
 			},
 		},
 	},
-}
+};
 
 
 module.exports = {pagesData};
