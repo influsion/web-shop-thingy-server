@@ -87,6 +87,6 @@ app.get('/page/:page/:lang', cors(), function(req, res) {
 });
 
 app.post('/subscribe', cors(), function (req, res) {
-    // const email = req.body;
-    console.log(req.body);
+    const email = req.body;
+    console.log(email);
 });
