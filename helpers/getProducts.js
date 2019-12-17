@@ -93,7 +93,8 @@ const getProducts = function(productArr, params = {}) {
                 .sort((a, b) => a.searchQueryPosition - b.searchQueryPosition)
                 .slice(0, quantityOfReturned ? quantityOfReturned : undefined)
                 .map(({ product }) => {
-                    product.searchedName = product.name.replace(re, `<mark>${searchQuery}</mark>`);
+                    const [ matchFound ] = re.exec(product.name);
+                    product.searchedName = product.name.replace(re, `<mark>${matchFound}</mark>`);
                     return product;
                 });
         };
