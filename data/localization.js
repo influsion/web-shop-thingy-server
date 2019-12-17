@@ -289,14 +289,25 @@ const localizationData = {
         "cart_table_product_total": {
             "_key_en": "Total",
         },
-
         "cart_page_check_out": {
             "_key_en": "Check Out",
         },
-
         "cart_page_grand_total": {
             "_key_en": "Grand Total",
         },
+
+        "cart_dropdown_go_to_checkout": {
+            "_key_en": "Go to Checkout",
+        },
+        "cart_dropdown_view_and_edit_cart": {
+            "_key_en": "View and edit cart",
+        },
+        "cart_dropdown_close": {
+            "_key_en": "Close",
+        },
+
+
+
 
         "app_feedback_copy": {
             "_key_en": "If you have any questions or suggestions, please feel free to reach out to us using the links below.",
