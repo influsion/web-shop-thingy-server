@@ -287,6 +287,17 @@ const localizationData = {
 
         "cart_page_grand_total": {
             "_key_en": "Grand Total",
+        },
+
+        "app_feedback_copy": {
+            "_key_en": "If you have any questions or suggestions, please feel free to reach out to us using the links below.",
+        },
+
+        "app_search_close": {
+            "_key_en": "Close",
+        },
+        "app_search_placeholder": {
+            "_key_en": "Search entire store here...",
         }
 
     },
