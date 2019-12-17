@@ -142,10 +142,6 @@ const pagesData = {
         },
     },
 
-    // "about": {
-
-    // },
-
     "contact": {
         "send_us_a_message": {
             "_key_en": "Send us a message",
@@ -207,14 +203,70 @@ const pagesData = {
         "form_send_email_button": {
             "_key_en": "Send Email",
         },
+    },
 
-
-
-
-
-
-
-
+    "about": {
+        "form_send_email_button": {
+            "_key_en": "Send Email",
+        },
+        "experts": {
+            "0": {
+                "name": {
+                    "_key_en": "Oleksandr Barna",
+                    "_key_ru": "Александр Барна",
+                },
+                "position": {
+                    "_key_en": "stringIsEmpry",
+                    "_key_ru": "stringIsEmpry",
+                },
+                "image": {
+                    "_key_en": "stringIsEmpry",
+                    "_key_ru": "stringIsEmpry",
+                },
+            },
+            "1": {
+                "name": {
+                    "_key_en": "Paul Mincho",
+                    "_key_ru": "Павел Минчо",
+                },
+                "position": {
+                    "_key_en": "stringIsEmpry",
+                    "_key_ru": "stringIsEmpry",
+                },
+                "image": {
+                    "_key_en": "stringIsEmpry",
+                    "_key_ru": "stringIsEmpry",
+                },
+            },
+            "2": {
+                "name": {
+                    "_key_en": "Denys Aptikieiev",
+                    "_key_ru": "Денис Аптикеев",
+                },
+                "position": {
+                    "_key_en": "stringIsEmpry",
+                    "_key_ru": "stringIsEmpry",
+                },
+                "image": {
+                    "_key_en": "stringIsEmpry",
+                    "_key_ru": "stringIsEmpry",
+                },
+            },
+            "3": {
+                "name": {
+                    "_key_en": "Stanislav Zaborovets",
+                    "_key_ru": "Станислав Заборовец",
+                },
+                "position": {
+                    "_key_en": "stringIsEmpry",
+                    "_key_ru": "stringIsEmpry",
+                },
+                "image": {
+                    "_key_en": "stringIsEmpry",
+                    "_key_ru": "stringIsEmpry",
+                },
+            },
+        },
     },
 }
 
