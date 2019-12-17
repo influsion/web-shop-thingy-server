@@ -307,8 +307,23 @@ const localizationData = {
         },
         "app_search_placeholder": {
             "_key_en": "Search entire store here...",
-        }
+        },
 
+        "subscription_title": {
+            "_key_en": "Stay with us",
+        },
+        "subscription_copy": {
+            "_key_en": "Subscribe to our newsletters now and stay up-to-date with new arrivals and exclusive offers.",
+        },
+        "subscription_placeholder": {
+            "_key_en": "Enter your e-mail",
+        },
+        "subscription_button_text": {
+            "_key_en": "Subscribe",
+        },
+        "subscription_input_fail": {
+            "_key_en": "Valid email is required: ex@abc.xyz",
+        },
     },
 };
 
