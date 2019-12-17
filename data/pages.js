@@ -4,6 +4,7 @@ const pagesData = {
     "faq": {
         "explanation": {
             "_key_en": "Below are frequently asked questions, you may find the answer for yourself",
+            "_key_ru": "______________",
         },
 
 
@@ -53,7 +54,8 @@ const pagesData = {
         "accordion": {
             "0": {
                 "id": {
-                    "_key_en": "0"
+                    "_key_en": "0",
+                    "_key_ru": "0",
                 },
                 "question": {
                     "_key_en": "How can I order"
@@ -64,7 +66,7 @@ const pagesData = {
             },
             "1": {
                 "id": {
-                    "_key_en": "1"
+                    "_key_en": "1",
                 },
                 "question": {
                     "_key_en": "Why should I buy online?"
@@ -75,7 +77,7 @@ const pagesData = {
             },
             "2": {
                 "id": {
-                    "_key_en": "2"
+                    "_key_en": "2",
                 },
                 "question": {
                     "_key_en": "What should I do if the payment is not accepted?"
@@ -86,7 +88,7 @@ const pagesData = {
             },
             "3": {
                 "id": {
-                    "_key_en": "3"
+                    "_key_en": "3",
                 },
                 "question": {
                     "_key_en": "Can I cancel my order?"
@@ -97,7 +99,7 @@ const pagesData = {
             },
             "4": {
                 "id": {
-                    "_key_en": "4"
+                    "_key_en": "4",
                 },
                 "question": {
                     "_key_en": "Can I track my order?"
@@ -108,7 +110,7 @@ const pagesData = {
             },
             "5": {
                 "id": {
-                    "_key_en": "5"
+                    "_key_en": "5",
                 },
                 "question": {
                     "_key_en": "Shipping time?"
@@ -119,7 +121,7 @@ const pagesData = {
             },
             "6": {
                 "id": {
-                    "_key_en": "6"
+                    "_key_en": "6",
                 },
                 "question": {
                     "_key_en": "Shipping cost?"
@@ -130,7 +132,7 @@ const pagesData = {
             },
             "7": {
                 "id": {
-                    "_key_en": "7"
+                    "_key_en": "7",
                 },
                 "question": {
                     "_key_en": "Why is there a checkout limit? / What are all the checkout limits?"

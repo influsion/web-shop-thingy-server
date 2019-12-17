@@ -4,18 +4,23 @@ const localizationData = {
     "menu": {
         "home": {
             "_key_en": "Home",
+            "_key_ru": "_____________",
         },
         "shop": {
             "_key_en": "Shop",
+            "_key_ru": "_____________",
         },
         "faq": {
             "_key_en": "FAQ",
+            "_key_ru": "_____________",
         },
         "contact": {
             "_key_en": "Contact",
+            "_key_ru": "_____________",
         },
         "about": {
             "_key_en": "About",
+            "_key_ru": "_____________",
         },
     },
 
