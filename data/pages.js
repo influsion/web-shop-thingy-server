@@ -146,9 +146,76 @@ const pagesData = {
 
     // },
 
-    // "contact": {
+    "contact": {
+        "send_us_a_message": {
+            "_key_en": "Send us a message",
+        },
+        "get_office_info": {
+            "_key_en": "Get office info",
+        },
+        "get_office_info_text": {
+            "_key_en": "CRUX, established itself as a premium denim makers that focuses on providing styles that matches with today’s urban lifestyle in the Middle Eastern region since 2016.",
+        },
+        "get_office_info_address_title": {
+            "_key_en": "Address",
+        },
+        "get_office_info_phone_title": {
+            "_key_en": "Phone",
+        },
+        "get_office_info_email_title": {
+            "_key_en": "Email",
+        },
+        "get_office_info_website_title": {
+            "_key_en": "Website",
+        },
+        "office_info_address": {
+            "_key_en": "st. Kanatnaya, 22, Business Center \"Albatros\", 2nd floor, Odessa, Ukraine",
+            "_key_ru": "ул. Канатная, 22, БЦ «Альбатрос», 2-й этаж, г. Одесса, Украина",
+        },
+        "office_info_phone": {
+            "_key_en": "+38 (098) 166 25 80",
+        },
+        "office_info_email": {
+            "_key_en": "odessa@ithillel.ua",
+        },
+        "office_info_website": {
+            "_key_en": "https://ithillel.ua",
+        },
+        "office_info_website_short": {
+            "_key_en": "ithillel.ua",
+        },
 
-    // },
+
+        "form_first_name_placeholder": {
+            "_key_en": "First Name",
+        },
+        "form_last_name_placeholder": {
+            "_key_en": "Last Name",
+        },
+        "form_email_placeholder": {
+            "_key_en": "Email",
+        },
+        "form_website_placeholder": {
+            "_key_en": "Website",
+        },
+        "form_subject_placeholder": {
+            "_key_en": "Subject",
+        },
+        "form_text_placeholder": {
+            "_key_en": "Type your message here...",
+        },
+        "form_send_email_button": {
+            "_key_en": "Send Email",
+        },
+
+
+
+
+
+
+
+
+    },
 }
 
 
