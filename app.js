@@ -7,7 +7,8 @@ const qsDefaultParams = {
     format : 'RFC3986',
 };
 
-const { products: arrOfproducts } = require('./data/products.js');
+// const { products: arrOfproducts } = require('./data/products.js');
+const { products: arrOfproducts } = require('./data/products-copy');
 const { localization } = require('./data/localization.js');
 const { getProducts } = require('./helpers/getProducts.js');
 const { getCategoriesStructure } = require('./helpers/getCategoriesStructure.js');
@@ -18,7 +19,7 @@ const { pagesData } = require('./data/pages');
 
 const filterProducts = getProducts.bind(null, arrOfproducts);
 const getLocal = getLocalization.bind(null, localization);
-const categoriesStructure = getCategoriesStructure.bind(null, filterProducts());
+// const categoriesStructure = getCategoriesStructure.bind(null, filterProducts());
 
 const app = express();
 const PORT = 3000;
@@ -37,22 +38,23 @@ app.get('/settings', cors(), function(req, res) {
     res.status(200).send(settingsJSON);
 });
 
-app.get('/products', cors(), function(req, res) {
-    const { query } = req;
+app.get('/products/:lang', cors(), function(req, res) {
+    const { params: { lang }, query } = req;
 
-    const filteredProducts = filterProducts(query);
+    const filteredProducts = filterProducts(query, lang);
     const filteredProductsJSON = JSON.stringify(filteredProducts);
 
-    console.log('req.query: ', req.query);
-    console.log('products quantity: ', Object.keys(filteredProducts).length);
-
+    // console.log('req.query: ', req.query);
+    // console.log('products quantity: ', Object.keys(filteredProducts).length);
+    // console.log('********************************************************************************************************');
     // console.log(filteredProducts);
+
 
     res.status(200).send(filteredProductsJSON);
 });
 
 app.get('/localization/:lang', cors(), function(req, res) {
-    const { params: { lang = 'en' } } = req;
+    const { params: { lang } } = req;
 
     console.log({ lang });
     const localizationJSON = JSON.stringify(getLocal(lang));
@@ -60,8 +62,11 @@ app.get('/localization/:lang', cors(), function(req, res) {
     res.status(200).send(localizationJSON);
 });
 
-app.get('/categoriesstructure', cors(), function(req, res) {
-    const categoriesStructureJSON = JSON.stringify(categoriesStructure());
+app.get('/categoriesstructure/:lang', cors(), function(req, res) {
+    const { params: { lang } } = req;
+
+    const categoriesStructure = getCategoriesStructure(filterProducts({}, lang));
+    const categoriesStructureJSON = JSON.stringify(categoriesStructure);
 
     res.status(200).send(categoriesStructureJSON);
 });
@@ -70,7 +75,7 @@ app.get('/filterconditions', cors(), function(req, res) {
     const { query, query: { categoryOrSubcategory = '', price = [] } } = req;
 
     if (categoryOrSubcategory) {
-        const filterConditions = getFilterConditions(filterProducts(), categoryOrSubcategory, price);
+        const filterConditions = getFilterConditions(filterProducts({}, 'en'), categoryOrSubcategory, price);
         const filterConditionsJSON = JSON.stringify(filterConditions)
 
         res.status(200).send(filterConditionsJSON);

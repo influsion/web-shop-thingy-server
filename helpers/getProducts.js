@@ -9,15 +9,20 @@ Object.defineProperty(Array.prototype, 'flat', {
 });
 
 const { isKey } = require('./isKey');
+// const { getLocalization } = require('./getLocalization');
 
-const getProducts = function(productArr, params = {}) {
-    params = { ...params };
+const getProducts = function(productArr, params = {}, lang) {
+    // params = { ...params };
     const keys = Object.keys(params);
     const isSearch = keys.includes('name');
 
+    // console.log('getProducts ///////////////\\\\\\\\\\\\\\///////////////\\\\\\\\\\\\\\');
+    // console.log('getProducts //////////\\\\\\\\\\\\\\\\\\\\//////////\\\\\\\\\\\\\\\\\\\\');
+    // console.log('getProducts ', lang, params);
+
     const productFiltering = () => {
-        return productArr.filter(elem => {
-            elem = { ...elem };
+        const data = productArr.filter(elem => {
+            // elem = { ...elem };
 
             const eachParam = key => {
                 const is = isKey(key);
@@ -69,6 +74,21 @@ const getProducts = function(productArr, params = {}) {
                 .map(eachParam)
                 .every(elem => elem === true);
         });
+
+        const mappedData = data.map(elem => {
+            const translate = obj => obj[`_key_${lang}`];
+
+            return {
+                ...elem,
+                name: translate(elem.name),
+                description: translate(elem.description),
+            };
+        });
+        console.log({
+            data,
+            mappedData,
+        })
+        return mappedData;
     };
 
     const productSearch = () => {
