@@ -44,12 +44,6 @@ app.get('/products/:lang', cors(), function(req, res) {
     const filteredProducts = filterProducts(query, lang);
     const filteredProductsJSON = JSON.stringify(filteredProducts);
 
-    // console.log('req.query: ', req.query);
-    // console.log('products quantity: ', Object.keys(filteredProducts).length);
-    // console.log('********************************************************************************************************');
-    // console.log(filteredProducts);
-
-
     res.status(200).send(filteredProductsJSON);
 });
 

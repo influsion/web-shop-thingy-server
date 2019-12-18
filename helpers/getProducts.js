@@ -9,16 +9,11 @@ Object.defineProperty(Array.prototype, 'flat', {
 });
 
 const { isKey } = require('./isKey');
-// const { getLocalization } = require('./getLocalization');
+
 
 const getProducts = function(productArr, params = {}, lang) {
-    // params = { ...params };
     const keys = Object.keys(params);
     const isSearch = keys.includes('name');
-
-    // console.log('getProducts ///////////////\\\\\\\\\\\\\\///////////////\\\\\\\\\\\\\\');
-    // console.log('getProducts //////////\\\\\\\\\\\\\\\\\\\\//////////\\\\\\\\\\\\\\\\\\\\');
-    // console.log('getProducts ', lang, params);
 
     const productFiltering = () => {
         const data = productArr.filter(elem => {
@@ -84,10 +79,7 @@ const getProducts = function(productArr, params = {}, lang) {
                 description: translate(elem.description),
             };
         });
-        console.log({
-            data,
-            mappedData,
-        })
+
         return mappedData;
     };
 
