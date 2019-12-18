@@ -37,7 +37,14 @@ const somethingList = function() {
     }
 };
 
-const getFilterConditions = (productArray, categoryOrSubcategory) => {
+const inRange = (itemPrice, priceRange) => {
+    const rangeIsCorrect = isNaN(parseFloat(priceRange[0])) && isNaN(parseFloat(priceRange[1]));
+    const chech = () => +itemPrice >= +priceRange[0] && +itemPrice <= priceRange[1];
+
+    return rangeIsCorrect ? rangeIsCorrect : chech() ;
+}
+
+const getFilterConditions = (productArray, categoryOrSubcategory, priceRangeToFilter) => {
     const price_Range = priceRange();
     const brandsList = somethingList();
     const originList = somethingList();
@@ -45,10 +52,11 @@ const getFilterConditions = (productArray, categoryOrSubcategory) => {
     productArray.forEach(item => {
         const necessaryProduct = [item.category, item.subcategory].includes(categoryOrSubcategory);
 
-        if (necessaryProduct ) {
+        if (necessaryProduct) {
             price_Range.update(item.price);
-            brandsList.update(item.brand);
-            originList.update(item.origin);
+
+            inRange(item.price, priceRangeToFilter) && brandsList.update(item.brand);
+            inRange(item.price, priceRangeToFilter) && originList.update(item.origin);
         }
     });
 

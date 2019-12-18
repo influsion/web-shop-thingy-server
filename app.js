@@ -22,7 +22,7 @@ const categoriesStructure = getCategoriesStructure.bind(null, filterProducts());
 
 const app = express();
 const PORT = 3000;
-app.use(cors()); 
+app.use(cors());
 app.use(bodyParser());
 app.use(bodyParser.json());
 
@@ -60,11 +60,11 @@ app.get('/categoriesstructure', cors(), function(req, res) {
     res.status(200).send(categoriesStructureJSON);
 });
 
-app.get('/filterconditions/:categoryOrSubcategory', cors(), function(req, res) {
-    const { params: { categoryOrSubcategory = null } } = req;
+app.get('/filterconditions', cors(), function(req, res) {
+    const { query, query: { categoryOrSubcategory = '', price = [] } } = req;
 
     if (categoryOrSubcategory) {
-        const filterConditions = getFilterConditions(filterProducts(), categoryOrSubcategory);;
+        const filterConditions = getFilterConditions(filterProducts(), categoryOrSubcategory, price);
         const filterConditionsJSON = JSON.stringify(filterConditions)
 
         res.status(200).send(filterConditionsJSON);
