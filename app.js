@@ -90,3 +90,8 @@ app.post('/subscribe', cors(), function (req, res) {
     const email = req.body;
     console.log(email);
 });
+
+app.post('/contacform', cors(), function (req, res) {
+    const formData = req.body;
+    console.log(formData);
+});
