@@ -13,7 +13,7 @@ const { getProducts } = require('./helpers/getProducts.js');
 const { getCategoriesStructure } = require('./helpers/getCategoriesStructure.js');
 const { getLocalization } = require('./helpers/getLocalization.js');
 const { getFilterConditions } = require('./helpers/getFilterConditions.js');
-
+const { appSettings } = require('./data/appSettings');
 const { pagesData } = require('./data/pages');
 
 const filterProducts = getProducts.bind(null, arrOfproducts);
@@ -30,6 +30,12 @@ app.listen(PORT);
 
 
 console.log('Run server');
+
+app.get('/settings', cors(), function(req, res) {
+    const settingsJSON = JSON.stringify(appSettings);
+
+    res.status(200).send(settingsJSON);
+});
 
 app.get('/products', cors(), function(req, res) {
     const { query } = req;
