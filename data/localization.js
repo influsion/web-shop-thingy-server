@@ -374,6 +374,10 @@ const localizationData = {
             "_key_en": "Total",
             "_key_ru": "Промежуточный итог",
         },
+        "cart_page_grand_total": {
+            "_key_en": "Grand Total",
+            "_key_ru": "Всего",
+        },
         "cart_page_check_out": {
             "_key_en": "Check Out",
             "_key_ru": "Оплата покупок",
