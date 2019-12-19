@@ -237,12 +237,12 @@ const pagesData = {
 
 	"about": {
 		"someheaderonaboutpage": {
-			"_key_en": "qwertyuiop",
-			"_key_ru": "йцукенгшщз",
+			"_key_en": "About the company",
+			"_key_ru": "О компании",
 		},
 		"sometextonaboutpage": {
-			"_key_en": "asdfghjkl",
-			"_key_ru": "фывапролд",
+			"_key_en": "This wonderful project was founded by 4 programming enthusiasts in order to bring the bright magic of the cult of JavaScript into the world. 100% Certified Health Safe Products. We select only the highest quality and most innovative products for our customers. We create individual gift sets for each consumer with a wide selection of products. Our staff is constantly improving their qualifications and is trained by world leaders in product and sales industry. We know everything about our product range and recommend only the best products to you.",
+			"_key_ru": "Сей чудесный проект был основан 4 энтузиастами программирования, дабы нести в мир светлую магию культа JavaScript. 100% сертифицированные товары, безопасные для здоровья. Мы отбираем только самую высококачественную и инновационную продукцию для наших клиентов. Мы формируем индивидуальные подарочные наборы под каждого потребителя с широким выбором продукции. Наш персонал постоянно повышает квалификацию и проходит тренинги у мировых лидеров индустрии по продукции и продажам. Мы знаем все о своем ассортименте и рекомендуем вам только лучшие товары.",
 		},
 		"the_right_people_for_your_project": {
 			"_key_en": "the right people for your project",
@@ -261,8 +261,8 @@ const pagesData = {
 					"_key_ru": "Александр Барна",
 				},
 				"position": {
-					"_key_en": "stringIsEmpry",
-					"_key_ru": "stringIsEmpry",
+					"_key_en": "Scope Specialist",
+					"_key_ru": "Мастер области видимости",
 				},
 				"image": {
 					"_key_en": "images/about/team/1.jpg",
@@ -275,8 +275,8 @@ const pagesData = {
 					"_key_ru": "Павел Минчо",
 				},
 				"position": {
-					"_key_en": "stringIsEmpry",
-					"_key_ru": "stringIsEmpry",
+					"_key_en": "Regular Expression Specialist",
+					"_key_ru": "Мастер регулярных выражений",
 				},
 				"image": {
 					"_key_en": "images/about/team/2.jpg",
@@ -289,8 +289,8 @@ const pagesData = {
 					"_key_ru": "Денис Аптикеев",
 				},
 				"position": {
-					"_key_en": "stringIsEmpry",
-					"_key_ru": "stringIsEmpry",
+					"_key_en": "Young padawan",
+					"_key_ru": "Юный падаван",
 				},
 				"image": {
 					"_key_en": "images/about/team/3.jpg",
@@ -303,8 +303,8 @@ const pagesData = {
 					"_key_ru": "Станислав Заборовец",
 				},
 				"position": {
-					"_key_en": "stringIsEmpry",
-					"_key_ru": "stringIsEmpry",
+					"_key_en": "Insert position text",
+					"_key_ru": "Введите текст должности",
 				},
 				"image": {
 					"_key_en": "images/about/team/4.jpg",
