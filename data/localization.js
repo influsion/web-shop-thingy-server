@@ -443,6 +443,27 @@ const localizationData = {
             "_key_en": "Valid email is required. For example: ex@abc.xyz",
             "_key_ru": "Требуется действительный адрес электронной почты. Например: ex@abc.xyz",
         },
+
+        "feedback_input_fail_first_name": {
+            "_key_en": "Required field. Please enter valid name",
+            "_key_ru": "Обязательное поле. Пожалуйста введите корректное имя",
+        },
+        "feedback_input_fail_last_name": {
+            "_key_en": "Required field. Please enter valid last name",
+            "_key_ru": "Обязательное поле. Пожалуйста введите корректнeю фамилию",
+        },
+        "feedback_input_fail_email": {
+            "_key_en": "Required field. Please enter valid email address",
+            "_key_ru": "Обязательное поле. Пожалуйста введите корректный адрес электронной почты",
+        },
+        "feedback_input_fail_subject": {
+            "_key_en": "Required field. Please enter valid subject",
+            "_key_ru": "Обязательное поле. Пожалуйста введите корректное название темы",
+        },
+        "feedback_input_fail_text": {
+            "_key_en": "Please fill in the field",
+            "_key_ru": "Пожалуйста заполните поле",
+        },
     },
 };
 
