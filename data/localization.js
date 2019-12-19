@@ -287,7 +287,7 @@ const localizationData = {
         },
         "popular": {
             "_key_en": "Popular",
-            "_key_ru": "Популярный",
+            "_key_ru": "Популярные",
         },
         "new_products_slider_subtitle": {
             "_key_en": "Check out our new arrivals!",
