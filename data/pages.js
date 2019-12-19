@@ -289,8 +289,8 @@ const pagesData = {
 					"_key_ru": "Денис Аптикеев",
 				},
 				"position": {
-					"_key_en": "Young padawan",
-					"_key_ru": "Юный падаван",
+					"_key_en": "Special job specialist",
+					"_key_ru": "Специалист по специальным работам",
 				},
 				"image": {
 					"_key_en": "images/about/team/3.jpg",
