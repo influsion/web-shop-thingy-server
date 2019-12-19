@@ -91,7 +91,17 @@ const getProducts = function(productArr, params = {}, lang) {
         const isCorrectSearchQuery = new RegExp(/^[^@#$%&|*^()=+\\\[\]/]+$/).test(searchQuery);
 
         const processSearchQuery = () => {
-            return productArr
+            const mappedData = productArr.map(elem => {
+                const translate = obj => obj[`_key_${lang}`];
+
+                return {
+                    ...elem,
+                    name: translate(elem.name),
+                    description: translate(elem.description),
+                };
+            });
+
+            return mappedData
                 .map(elem => {
                     const { name } = elem;
 
